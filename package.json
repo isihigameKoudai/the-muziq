@@ -1,0 +1,35 @@
+{
+  "name": "muziq-app",
+  "version": "1.0.0",
+  "description": "The music application which deliver new music experience.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next src/client",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/isihigameKoudai/the-muziq.git"
+  },
+  "keywords": [
+    "music",
+    "lifestyle",
+    "app"
+  ],
+  "author": "koudaiishigame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isihigameKoudai/the-muziq/issues"
+  },
+  "homepage": "https://github.com/isihigameKoudai/the-muziq#readme",
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "@types/react": "^16.8.23",
+    "next": "^9.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.5.3"
+  }
+}
