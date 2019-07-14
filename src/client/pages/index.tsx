@@ -1,7 +1,12 @@
-import * as Resct from 'react';
+import * as React from 'react';
+
+import Button from '../components/atoms/Button/';
 
 const Index: React.FC = () => {
-  return <div>hello index</div>
+  return <div>
+    <Button />
+    <div>hello</div>
+  </div>
 }
 
 export default Index;
