@@ -1,5 +1,4 @@
 import * as React from 'react';
-
 import Button from '../components/atoms/Button/';
 
 const Index: React.FC = () => {
