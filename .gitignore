@@ -92,3 +92,11 @@ yarn.lock
 sw.*
 storybook-static
 .out
+
+## Compiled JavaScript files
+**/*.js
+**/*.js.map
+
+# Typescript v1 declaration files
+typings/
+firebase-debug.log

@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "next src/client",
+    "dev:func": "npm run build:func && npm run serve:func",
     "build": "next build",
+    "build:func": "cd src/functions && tsc index.ts",
+    "serve:func": "firebase serve --only functions",
     "start": "next start",
+    "deploy:func": "firebase deploy --only functions",
     "storybook:dev": "start-storybook -p 9001 -c .storybook",
     "storybook": "build-storybook -c .storybook -o .out",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -48,6 +52,8 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
+    "firebase-admin": "^8.3.0",
+    "firebase-functions": "^3.2.0",
     "next": "^9.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
