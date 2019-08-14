@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "next src/client",
-    "dev:func": "firebase serve --only functions",
+    "dev:func": "npm run build:func && npm run serve:func",
     "build": "next build",
     "build:func": "cd src/functions && tsc index.ts",
+    "serve:func": "firebase serve --only functions",
     "start": "next start",
     "deploy:func": "firebase deploy --only functions",
     "storybook:dev": "start-storybook -p 9001 -c .storybook",
