@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  distDir: "../functions/.next",
+  distDir: "../functions/next",
   dir: './',
   webpack(config, options) {
     config.resolve.alias = {

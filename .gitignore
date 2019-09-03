@@ -100,3 +100,5 @@ storybook-static
 # Typescript v1 declaration files
 typings/
 firebase-debug.log
+next
+
