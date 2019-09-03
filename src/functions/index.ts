@@ -10,6 +10,6 @@ const handle = app.getRequestHandler();
 // // https://firebase.google.com/docs/functions/typescript
 
 export const helloWorld = functions.https.onRequest((req, res) => {
-//  response.send("Hello from Firebase!!!!");
- return app.prepare().then(() => handle(req, res))
+ res.send("Hello from Firebase!!!!");
+//  return app.prepare().then(() => handle(req, res))
 });

@@ -9,6 +9,8 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
+    "baseUrl": "./",
+    "rootDir": "./",
     "outDir": "../../dist/functions",
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
@@ -19,7 +21,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "types": ["node"]
+    "types": ["node", "react", "react-dom", "next"]
   },
   "exclude": [
     "node_modules"
